@@ -2,7 +2,7 @@ import chromadb
 from google import genai
 from google.genai import types
 
-MODEL_NAME = "gemini-3-flash-preview"
+MODEL_NAME = "gemini-2.5-flash-lite"
 EMBED_MODEL = "text-embedding-004"
 
 class PerkAgent:
@@ -54,4 +54,5 @@ class PerkAgent:
         )
 
         return resp.text
+
 
